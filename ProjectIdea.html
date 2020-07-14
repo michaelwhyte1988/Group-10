@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>My Profile</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="InterestinIT.css">
+		<style>
+         body {
+          background-image: url("background.jpg");
+		  background-size: 100% 100%;
+         }
+		</style>
+	</head>
+	
+	
+	<body>
+	
+		<div id="box">
+		
+		<header>
+				<h1>My Profile</h1>
+
+
+		<nav>
+		<ul>
+			<li><a href="ProjectIdea.html">Project Idea</a></li>
+			<li><a href="Profile.html">Profile</a></li>
+			<li><a href="IdealJob.html">Ideal Job</a></li>
+			<li><a href="InterestinIT.html">Interest in IT</a></li>
+			<li><a href="PersonalProfile.html">Personal Profile</a></li>
+			<li><a href="Index.html">Home</a></li>
+		</ul>
+		</nav>
+		</header>
+		
+		<section>
+			<article>
+		<h2><u>Project Idea</u></h2>
+		
+		
+		<br>
+		<p>The project idea I have come up with is to create LED road lines to indicate to the driver when there is a pedestrian waiting or about to cross at a crossing. Currently on the road there are white zig zag lines 
+		leading up to the crossing and some have faded over time as well as the crossing lines. The idea is to make the zig zag lines and sides of the crossing lines into LED strips which sense and light up when a passenger 
+		walks up to the crossing at any time of night to or during the day to indicate someone is using the crossing.</p>
+		
+		<br>
+		<p>A study by the Transport Accident Commission Victoria states that 54% of pedestrian fatalities were from crossing the road and being struck from the near side and 18% from crossing and being struck from the far side. 
+		In the last 10 years, more than 400 pedestrians lost their lives on Victorian roads.With the LED lights on the road leading up to a crossing, I hope to reduce this statistic as pedestrians will be seen by the driver waiting 
+		at the crossing and drivers can be careful when driving up to the crossing. This can benefit during both the day and night, but it is mostly effective when people use the crossing at night when it is darker and difficult to 
+		see, as well as other weather conditions. This project idea can be programmed through the use of Python and Raspberry Pi technology which will make it inexpensive and efficient. 
+		<br>
+		<br>
+		<p>This IT idea is for a pedestrian to step on a pressure sensor, which is under the concrete on the ramp of the crossing. This will then send a signal to the LED strips on the zig zag lines in the centre of the lane to light up and the pedestrian crossing itself. The zigzag line will be a warm white colour, which will turn on solid and fade in and out but not enough to pose a 
+		distraction for the driver. When the pedestrian steps on the sensor on the ramp, the lights on the zigzag line will be programmed to light up and fade in and out for ten seconds to warn an oncoming car of the pedestrian crossing ahead. The approaching driver will be able to see the lights fading in and out 20 meters from the crossing, so there is enough time to slow the vehicle
+		to a safe speed and eventually come to a complete stop for the pedestrian.The pedestrian crossing itself will have solid warm white LEDs at each end of the crossing and stripes which will stay on until the programmed time ends. At the same time as the zig zag lines are illuminated, the light on the ends of the crossing stripes will be programmed to turn on solid and stay on for  
+		ten seconds, providing enough time for the  pedestrian to walk across the road in a safe amount of time. For this project idea to work, the Raspberry Pi will have a force sensitive resistor or pressure pad connected to it, which will sense when pressure changes, when a pedestrian steps on it. This will then be connected to LED lights, which illuminate when the pressure sensor sends
+		a signal to indicate someone on it. On the side of the road next to the crossing, will be the solar panel, which will be connected underground to power the whole system efficiently, which in the long term will cost less to run. The python script will be programmed to signal to the Raspberry Pi to have the LEDs light up for ten seconds through the use of the time.sleep(10) code. Other
+		programming involves GPIO.setup, which tells the Python to use specific pins, where the wires are plugged in. GPIO.setmode, defines what numbering scheme the pins use and GPIO.output (True and False), tells the Python to turn on and off LEDs, when the time is programmed to.</p>
+
+		<br>
+		<p>The tools and technologies for this project idea will include the Lodra light line, which can be custom built by the company for any size you need. For the programming of the lights I wish to use Raspberry Pi technology and
+		python which will program the LEDs to light up when someone steps on a pressure sensor located on the ramp of the crossing. The lights will be run on solar power, which will be powered from the side of the road and allow for
+		efficient lighting during the night and day.</p>
+
+		<br>
+		<p>The skills required for this project idea include being able to program in python to code for the LEDs to light up and stay on for ten seconds. Skills for this program to be implemented include being able to program a Raspberry Pi,
+		which will be the main hardware for this project. Other special hardware items include a pressure sensor to signal to the Raspberry that there is a pedestrian at the crossing as well as solar panels to power the LEDs during the day 
+		and mostly at night. It will be reasonably easy to find the skills and software required as there are many programmers who can code Python easily online as it is a well-known script. The hardware is also readily available and reasonably
+		priced for this project to be complete. On another note it will be recommended that hardware is installed by licensed construction workers and the programming and code completed by a certified programmer.</p>
+		<br>
+		
+		<p>If this project is successful the possible outcome is to reduce the risk of dangers to pedestrians crossing the road both day and night and to make drivers aware and cautious around pedestrian crossings. The original problem will be 
+		solved by allowing drivers to see when there is an oncoming pedestrian crossing and allow pedestrians to be visible when walking across the road safely. The impact of this development will be to reduce the injuries and fatalities of 
+		pedestrians at crossings, which through various statistics has proven to be at a high risk This will be mostly evident as it is difficult to see at night or with an obstructed view as it warns  the driver that a pedestrian has approached an upcoming crossing.</p>
+		
+		
+			</article>
+			
+			<footer>
+		
+			<br>
+					<h4>© 2020 Aldo Breda</h4>
+			
+			<br>
+		</footer>
+
+		</section>
+		
+		</div>
+	</body>
+</html>

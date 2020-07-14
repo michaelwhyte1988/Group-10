@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background-size: 2000px;
+	background-position: center;
+}
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+header{
+	height: 100px;
+	background-position: left;
+}
+
+
+blink {
+      animation: blinker 1.0s linear infinite;
+      color: #336699;
+      font-size: 20px;
+      font-family: Century Gothic, Arial, sans-serif;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      blink-one {
+      animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {  
+      0% { opacity: 0; }
+      }
+      blink-two {
+      animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
+
+.header img {
+  float: left;
+  width: 120px;
+  height: 120px;
+	padding: 10px;
+}
+
+
+h1{
+	padding: 15px;
+	font-family: Poppings, sans-serif;
+	font-size: 50px; 
+	color:#336699;
+	padding-top:50px;
+}
+
+h2{
+	color:#336699;
+	font-family: Century Gothic, sans-serif;
+	font-size: 40px;
+	line-height: 2;
+}
+
+p{
+	font-family: Century Gothic, Arial, sans-serif;
+	line-height: 2;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-top:0px;	
+}
+
+nav li{
+	float: right;
+	font-family: Century Gothic, Arial, sans-serif;
+	background-color:#336699;
+    
+    
+}
+
+
+nav li a{
+	display: block;
+	color: white;
+	padding: 13px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color:#538cc6;
+	
+}
+
+
+section{
+	clear: both;
+	min-height: 1500px;
+	border: solid;
+	font-family: Century Gothic;
+}
+
+
+
+article{
+	padding: 30px;
+	width: 800px;
+	font-family: Century Gothic;
+	color:#336699;	
+}
+
+article ul{
+	margin: 0px 30px;
+	padding: 0px;
+	font-family: Century Gothic, Arial, sans-serif;
+	line-height: 2;
+}
+
+aside{
+	width: 1018px;
+	height: 0px;
+}
+
+aside img{
+	width: 100%;
+}
+
+footer{
+	font-family: Century Gothic;
+	clear: both;
+	float: left;
+	width: 100%;
+	height: 50px;
+	padding: 6px 0px;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+}
+#box{
+	margin: auto;
+	width: 1024px;
+	padding: 2px;
+	background-color: white;
+	
+}
+
+
+
+
+body {
+	font-family:Century Gothic, sans-serif;
+	font-weight:300;
+	font-size: 20px;
+	color:black;
+	
+}
+
+Timeline
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ 
+  font-family: Century Gothic, sans-serif;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: 60px;
+  
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -32px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: -4%;
+}
+
+.right {
+  left: 60%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #336699;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #336699;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #336699;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #336699 transparent transparent;
+}
+
+.right::after {
+  right: 481px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: #336699;
+  position: relative;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .container {
+    width: 90%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .container::before {
+    left: 60px;
+    border: medium solid #336699;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #336699 transparent transparent;
+  }
+
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
+
+mark {
+    background-color:#336699;
+    color: white;
+}
+
+
