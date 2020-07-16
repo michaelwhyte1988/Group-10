@@ -74,7 +74,7 @@ nav ul{
 }
 
 nav li{
-	float: right;
+	float: none;
 	font-family: Century Gothic, Arial, sans-serif;
 	background-color:#336699;
     
